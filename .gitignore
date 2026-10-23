@@ -1,0 +1,16 @@
+# Build outputs
+build/
+hello-asm/build/
+
+# ESP-IDF generated config (recreate with: idf.py set-target esp32)
+freertos-hello/sdkconfig
+freertos-hello/sdkconfig.old
+freertos-hello/managed_components/
+freertos-hello/dependencies.lock
+
+# Third-party reference documents: downloaded locally, not redistributed.
+# See docs/09-references.md for URLs; SHA256SUMS is kept.
+docs/references/*
+!docs/references/SHA256SUMS
+
+__pycache__/
